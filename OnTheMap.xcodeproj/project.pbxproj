@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		913D90D01BBE4F1C00E1B4FF /* UrlPostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913D90CF1BBE4F1C00E1B4FF /* UrlPostingViewController.swift */; };
+		913D90D21BC08B4700E1B4FF /* tableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913D90D11BC08B4700E1B4FF /* tableViewCell.swift */; };
+		9141A95A1BA7890600D517C8 /* StudentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9141A9591BA7890600D517C8 /* StudentInfo.swift */; };
+		918856B51B83FCD600BC969E /* udacityClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918856B41B83FCD600BC969E /* udacityClient.swift */; };
 		918BE35E1B7EA7C3005A44EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918BE35D1B7EA7C3005A44EB /* AppDelegate.swift */; };
-		918BE3601B7EA7C3005A44EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918BE35F1B7EA7C3005A44EB /* ViewController.swift */; };
+		918BE3601B7EA7C3005A44EB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918BE35F1B7EA7C3005A44EB /* LoginViewController.swift */; };
 		918BE3631B7EA7C3005A44EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918BE3611B7EA7C3005A44EB /* Main.storyboard */; };
 		918BE3651B7EA7C3005A44EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 918BE3641B7EA7C3005A44EB /* Images.xcassets */; };
 		918BE3681B7EA7C3005A44EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 918BE3661B7EA7C3005A44EB /* LaunchScreen.xib */; };
 		918BE3741B7EA7C3005A44EB /* OnTheMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918BE3731B7EA7C3005A44EB /* OnTheMapTests.swift */; };
+		91D458B81BC2380800D2C2C1 /* displayURLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D458B71BC2380800D2C2C1 /* displayURLViewController.swift */; };
+		91D458BA1BC4EAAD00D2C2C1 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D458B91BC4EAAD00D2C2C1 /* Reachability.swift */; };
+		91F2A4E51B9FA8A00097E0FC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2A4E41B9FA8A00097E0FC /* MapViewController.swift */; };
+		91F2A4E71B9FA9AA0097E0FC /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2A4E61B9FA9AA0097E0FC /* ListViewController.swift */; };
+		91F2A4E91BA0FBD70097E0FC /* parseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2A4E81BA0FBD70097E0FC /* parseClient.swift */; };
+		91F2A4EB1BA14D260097E0FC /* InformationPostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2A4EA1BA14D260097E0FC /* InformationPostingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +36,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		913D90CF1BBE4F1C00E1B4FF /* UrlPostingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlPostingViewController.swift; sourceTree = "<group>"; };
+		913D90D11BC08B4700E1B4FF /* tableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableViewCell.swift; sourceTree = "<group>"; };
+		9141A9591BA7890600D517C8 /* StudentInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentInfo.swift; sourceTree = "<group>"; };
+		918856B41B83FCD600BC969E /* udacityClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = udacityClient.swift; sourceTree = "<group>"; };
 		918BE3581B7EA7C3005A44EB /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		918BE35C1B7EA7C3005A44EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		918BE35D1B7EA7C3005A44EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		918BE35F1B7EA7C3005A44EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		918BE35F1B7EA7C3005A44EB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		918BE3621B7EA7C3005A44EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		918BE3641B7EA7C3005A44EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		918BE3671B7EA7C3005A44EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		918BE36D1B7EA7C3005A44EB /* OnTheMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnTheMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		918BE3721B7EA7C3005A44EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		918BE3731B7EA7C3005A44EB /* OnTheMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTheMapTests.swift; sourceTree = "<group>"; };
+		91D458B71BC2380800D2C2C1 /* displayURLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = displayURLViewController.swift; sourceTree = "<group>"; };
+		91D458B91BC4EAAD00D2C2C1 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		91F2A4E41B9FA8A00097E0FC /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		91F2A4E61B9FA9AA0097E0FC /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		91F2A4E81BA0FBD70097E0FC /* parseClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = parseClient.swift; sourceTree = "<group>"; };
+		91F2A4EA1BA14D260097E0FC /* InformationPostingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationPostingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		918856AA1B83FAC600BC969E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				918856AB1B83FAFC00BC969E /* Clients */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		918856AB1B83FAFC00BC969E /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				91F2A4E81BA0FBD70097E0FC /* parseClient.swift */,
+				918856B41B83FCD600BC969E /* udacityClient.swift */,
+				9141A9591BA7890600D517C8 /* StudentInfo.swift */,
+			);
+			name = Clients;
+			sourceTree = "<group>";
+		};
+		918856B61B83FCE800BC969E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				918BE35F1B7EA7C3005A44EB /* LoginViewController.swift */,
+				91F2A4E41B9FA8A00097E0FC /* MapViewController.swift */,
+				91F2A4E61B9FA9AA0097E0FC /* ListViewController.swift */,
+				91F2A4EA1BA14D260097E0FC /* InformationPostingController.swift */,
+				913D90CF1BBE4F1C00E1B4FF /* UrlPostingViewController.swift */,
+				91D458B71BC2380800D2C2C1 /* displayURLViewController.swift */,
+				91D458B91BC4EAAD00D2C2C1 /* Reachability.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		918856B71B83FD1800BC969E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				913D90D11BC08B4700E1B4FF /* tableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		918BE34F1B7EA7C3005A44EB = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +138,9 @@
 			isa = PBXGroup;
 			children = (
 				918BE35D1B7EA7C3005A44EB /* AppDelegate.swift */,
-				918BE35F1B7EA7C3005A44EB /* ViewController.swift */,
+				918856AA1B83FAC600BC969E /* Model */,
+				918856B71B83FD1800BC969E /* View */,
+				918856B61B83FCE800BC969E /* Controller */,
 				918BE3611B7EA7C3005A44EB /* Main.storyboard */,
 				918BE3641B7EA7C3005A44EB /* Images.xcassets */,
 				918BE3661B7EA7C3005A44EB /* LaunchScreen.xib */,
@@ -156,6 +218,8 @@
 		918BE3501B7EA7C3005A44EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Sangeetha;
 				TargetAttributes = {
@@ -212,8 +276,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				918BE3601B7EA7C3005A44EB /* ViewController.swift in Sources */,
+				913D90D01BBE4F1C00E1B4FF /* UrlPostingViewController.swift in Sources */,
+				913D90D21BC08B4700E1B4FF /* tableViewCell.swift in Sources */,
+				91D458BA1BC4EAAD00D2C2C1 /* Reachability.swift in Sources */,
+				918856B51B83FCD600BC969E /* udacityClient.swift in Sources */,
+				91F2A4E71B9FA9AA0097E0FC /* ListViewController.swift in Sources */,
+				91D458B81BC2380800D2C2C1 /* displayURLViewController.swift in Sources */,
+				918BE3601B7EA7C3005A44EB /* LoginViewController.swift in Sources */,
+				91F2A4E91BA0FBD70097E0FC /* parseClient.swift in Sources */,
+				91F2A4E51B9FA8A00097E0FC /* MapViewController.swift in Sources */,
 				918BE35E1B7EA7C3005A44EB /* AppDelegate.swift in Sources */,
+				91F2A4EB1BA14D260097E0FC /* InformationPostingController.swift in Sources */,
+				9141A95A1BA7890600D517C8 /* StudentInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +483,7 @@
 				918BE3791B7EA7C3005A44EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		918BE37A1B7EA7C3005A44EB /* Build configuration list for PBXNativeTarget "OnTheMapTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +492,7 @@
 				918BE37C1B7EA7C3005A44EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
